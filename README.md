@@ -1,2 +1,2 @@
 # vue-elementui-demo
-A Vue demo with element-ui for a  management system including side-bar and editable tabs-bar
+包含树形控件和表格的联动以及实现全局搜索，配置文件来配置菜单和功能按钮
