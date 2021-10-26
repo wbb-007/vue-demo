@@ -15,7 +15,7 @@ export default {
         {
           label: '研发部',
           children: [
-            { label: '研发一部', name: '' },
+            { label: '前端', name: '前端' },
             { label: '研发二部' },
             { label: '研发三部' }
           ]
