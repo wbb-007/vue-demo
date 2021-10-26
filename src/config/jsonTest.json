@@ -1,0 +1,81 @@
+{
+    "menu": [
+        {  
+            "name": "医药管理",
+            "id": "1",
+            "children": [
+                {
+                    "name": "设备管理",
+                    "id": "11",
+                    "tabname": "设备管理",
+                    "pathName": "shebei"
+                },
+                {
+                    "name": "材料管理",
+                    "id": "12",
+                    "tabname": "材料管理",
+                    "pathName": "cailiao"
+                }
+            ]
+        },
+        {
+            "name": "人员管理",
+            "id": "2",
+            "children": [
+                {
+                    "name": "通勤表",
+                    "id": "21",
+                    "tabname": "通勤表",
+                    "pathName": "tongqin"
+                },
+                {
+                    "name": "值班安排",
+                    "id": "22",
+                    "tabname": "值班安排",
+                    "pathName": "zhiban"
+                }
+            ]
+        }
+    ],
+    "buttons": [
+        {
+            "name": "添加",
+            "type": "success",
+            "method": "add",
+            "id": "1"
+        },
+        {
+            "name": "删除 ",
+            "type": "danger",
+            "method": "add",
+            "id": "2"
+        }
+    ],
+  
+    "tabledata2": [
+        {"id": "1","name": "王同学","job": "前端","sex": "男"},
+        {"id": "1","name": "何同学","job": "前端","sex": "女"},
+        {"id": "1","name": "马同学","job": "前端","sex": "男"},
+        {"id": "1","name": "将同学","job": "前端","sex": "男"},
+        {"id": "1","name": "啊同学","job": "前端","sex": "女"},
+        {"id": "1","name": "去同学","job": "前端","sex": "男"},
+        {"id": "1","name": "让同学","job": "前端","sex": "女"},
+        {"id": "2","name": "让同学","job": "后端","sex": "女"}
+
+        
+        
+    ],
+    "tabledata3": [
+        {"id": "1","name": "9同学","job": "后端","sex": "男"},
+        {"id": "1","name": "2同学","job": "后端","sex": "女"},
+        {"id": "1","name": "3同学","job": "后端","sex": "男"},
+        {"id": "1","name": "4同学","job": "后端","sex": "男"}
+    ],
+    "tableHead": [
+        {"label": "性别","prop": "sex"},
+        {"label": "姓名","prop": "name"},
+        {"label": "职位","prop": "job"}
+        
+      
+    ]
+}
